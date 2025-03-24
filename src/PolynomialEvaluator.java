@@ -5,7 +5,7 @@ public class PolynomialEvaluator {
     public static void main(String[] args) throws Exception {
         Scanner keyboard = new Scanner(System.in);
 
-        System.out.println("Enter your polynomial in the form of " + "f(x)=3x^3 -5x^2 +1x^4 +9x^6 +3.1x^1 +2");
+        System.out.println("Enter your polynomial in the form of f(x)=3x^3 -5x^2 +1x^4 +9x^6 +3.1x^1 +2");
         String polynomial = keyboard.nextLine();
 
         StringTokenizer st = new StringTokenizer(polynomial, " ");
